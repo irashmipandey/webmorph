@@ -1,0 +1,76 @@
+ html {
+    margin: 0;
+    padding: 0; 
+ }  
+    
+ body {
+    background-color: #152535;
+    font-family: "Josefin Sans";
+    color:white;
+    height:100%;
+ }
+
+ header, footer{
+    background-color: #203345;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }
+
+ .menu-bar {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+ }
+
+ a {
+    display: inline-block;
+    color: ghostwhite;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    transition: border-top 0.25s;
+  }
+  
+ a:hover {
+    color:white;
+    text-decoration: none;
+    margin: 0;
+    border-top: solid blue;
+  }
+
+  .logo {
+    padding: 0 0 10px 0;
+    margin: 0;
+  }
+
+  .logoimg {
+      text-align:center;
+  }
+
+  input {
+      padding: 10px;
+  }
+
+  .fa-user-o {
+      padding: 5px;
+  }
+
+  input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    color:white;
+    background-color: lightslategray;
+  }
+
+  ::placeholder {
+    color:white;
+  }
