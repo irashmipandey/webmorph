@@ -74,3 +74,140 @@
   ::placeholder {
     color:white;
   }
+.money-heist {
+      margin: 20px 10px 40px 40px;
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }
+
+  .money-heist2 {
+      width: 850px;
+      height: 550px;
+      margin: 20px 0 40px 10px;
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }
+
+  .row-1 {
+      display: inline-flex;
+  }
+
+  .middle-1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    right: 68%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .middle-2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .column-1:hover .money-heist {
+    opacity: 0.3;
+  }
+
+  .column-1:hover .middle-1 {
+    opacity: 1;
+  }
+  
+  .column-2:hover .money-heist2 {
+    opacity: 0.3;
+  }
+  
+  .column-2:hover .middle-2 {
+    opacity: 1;
+  }
+  
+  .text-1 {
+    background-color:transparent;
+    color:white;
+    font-size: 25px;
+    padding: 25px 25px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .text-2 {
+    background-color:transparent;
+    color:white;
+    font-size: 45px;
+    padding: 25px 25px;
+  }
+
+  .text-3 {
+    background-color:transparent;
+    color:white;
+    font-size: 15px;
+    padding: 25px 25px;
+  }
+
+  .text-4 {
+    background-color:transparent;
+    color:white;
+    font-size: 25px;
+    padding: 25px 25px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .heading {
+    font-size: 25px;
+    color:white;
+    margin: 5px 10px 40px 40px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column-3 {
+    float: left;
+    margin: 0 0 0 20px;
+  }
+
+  .row-3 {
+    display: inline-block;
+    padding: 2px;
+  }
+  
+  .ff-1 {
+  margin: 0 0 0 40px;
+  }
+
+  .row-4 {
+    display: inline-block;
+    padding: 2px;
+  }
+  
+  .bb-1 {
+  margin: 0 0 0 40px;
+  }
+
+  .rounded-corners {
+    border-radius: 10px;
+  }
+
+  .row-5 {
+    display: inline-block;
+    padding: 2px;
+  }
+  
+  .ww-1 {
+  margin: 0 0 0 40px;
+  }
+
+  .ww-2, .ww-3, .ww-4, .ww-6, .ww-7 {
+    padding: 0 20px 0 20px;
+  }
