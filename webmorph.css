@@ -315,3 +315,6 @@
     font-size: 15px;
     padding: 25px 25px;
   }
+ progress {
+    width: 5%;
+  }
