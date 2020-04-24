@@ -1,11 +1,12 @@
- html {
+ 
+  html {
     margin: 0;
     padding: 0; 
  }  
     
  body {
     background-color: #152535;
-    font-family: "Josefin Sans";
+    font-family: 'Josefin Sans', sans-serif;
     color:white;
     height:100%;
  }
@@ -38,10 +39,12 @@
   }
   
  a:hover {
+    box-sizing: border-box;
     color:white;
     text-decoration: none;
     margin: 0;
     border-top: solid blue;
+    transition: 0.5s;
   }
 
   .logo {
@@ -50,23 +53,24 @@
   }
 
   .logoimg {
-      text-align:center;
+    text-align: center;
   }
 
   input {
-      padding: 10px;
+    padding: 10px;
   }
 
   .fa-user-o {
-      padding: 5px;
+    padding: 5px;
   }
 
   input[type=text] {
-    width: 100px;
+    width: 27%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: none;
     border-radius: 4px;
     font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
     color:white;
     background-color: lightslategray;
   }
@@ -74,7 +78,8 @@
   ::placeholder {
     color:white;
   }
-.money-heist {
+
+  .money-heist {
       margin: 20px 10px 40px 40px;
       transition: .5s ease;
       backface-visibility: hidden;
@@ -134,9 +139,13 @@
     background-color:transparent;
     color:white;
     font-size: 25px;
-    padding: 25px 25px;
+    padding: 0px 0px;
     cursor: pointer;
     text-decoration: underline;
+  }
+
+  .fa-user-o {
+    cursor: pointer;
   }
 
   .text-2 {
@@ -191,7 +200,7 @@
     padding: 2px;
   }
   
-  .bb-1 {
+  .bb-1, .tt {
   margin: 0 0 0 40px;
   }
 
@@ -199,15 +208,57 @@
     border-radius: 10px;
   }
 
-  .row-5 {
-    display: inline-block;
-    padding: 2px;
-  }
-  
-  .ww-1 {
-  margin: 0 0 0 40px;
+  button {
+    background-color: #203345;
+    color: gainsboro;
+    font-size: medium;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 0 0 90px;
+    padding: 10px;
   }
 
-  .ww-2, .ww-3, .ww-4, .ww-6, .ww-7 {
-    padding: 0 20px 0 20px;
+  button:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+  }
+
+  .fa-facebook-square, .fa-twitter-square, .fa-imdb, .fa-instagram {
+    color: gainsboro;
+    padding-right: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .social-icons, .f-menu, .end-logo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .f-option {
+    font-size: 15px;
+    color: gainsboro;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+  }
+
+  .last-line {
+    font-size: 2px;
+    color: gainsboro;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .last-logo {
+    height: 30px;
+    width: 60px;
+  }
+
+  .ff-1:hover, .ff-2:hover, .ff-3:hover, .ff-4:hover, .bb-1:hover, .bb-2:hover, .bb-3:hover, 
+  .bb-4:hover, .ww-1:hover, .ww-2:hover, .ww-3:hover, .ww-4:hover, .ww-5:hover, 
+  .ww-6:hover, .ww-7:hover, .gg-1:hover, .gg-2:hover, .gg-3:hover, .gg-4:hover  {
+    -ms-transform: scale(1.25); 
+    -webkit-transform: scale(1.25); 
+    transform: scale(1.25);
+    transition: 0.5s;
   }
