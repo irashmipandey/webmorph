@@ -191,7 +191,7 @@
     padding: 2px;
   }
   
-  .ff-1 {
+  .ff-1, .row-6, .row-5 {
   margin: 0 0 0 40px;
   }
 
@@ -202,6 +202,11 @@
   
   .bb-1, .tt {
   margin: 0 0 0 40px;
+  }
+
+  .tt {
+    transition: .5s ease;
+    backface-visibility: hidden;
   }
 
   .rounded-corners {
@@ -260,5 +265,53 @@
     -ms-transform: scale(1.25); 
     -webkit-transform: scale(1.25); 
     transform: scale(1.25);
-    transition: 0.5s;
+    transition: 0.3s;
+
+  }
+
+  .ff-c-1, .ff-c-2, .ff-c-3, .ff-c-4, .bb-c-1, .bb-c-2, .bb-c-3, .bb-c-4, .ww-c-1, .ww-c-2, .ww-c-3, .ww-c-4, .ww-c-5, 
+  .ww-c-6, .ww-c-7, .tt-c-1, .gg-c-1, .gg-c-2, .gg-c-3, .gg-c-4 {
+    display: inline;
+  }
+  
+  .mid-text {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .part-5:hover .tt {
+    opacity: 0.3;
+  }
+  
+  .part-5:hover .mid-text {
+    opacity: 1;
+  }
+
+  .text-a {
+    background-color:transparent;
+    color:white;
+    font-size: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .text-b {
+    background-color:transparent;
+    color:white;
+    font-size: 45px;
+    padding: 25px 25px;
+  }
+
+  .text-c {
+    background-color:transparent;
+    color:white;
+    font-size: 15px;
+    padding: 25px 25px;
   }
