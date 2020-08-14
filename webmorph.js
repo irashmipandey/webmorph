@@ -3,7 +3,8 @@ animate({
     timing(timeFraction) {
       return timeFraction;
     },
-    draw(progress) {
+    draw(progress)
+    {
       elem.style.width = progress * 100 + '%';
     }
   });
